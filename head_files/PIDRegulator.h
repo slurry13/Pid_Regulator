@@ -1,7 +1,6 @@
 #pragma once
 
 class PID_REGULATOR {
-COMPLIMENTARY_FILTER filter();
 PID_REGULATOR(float p, float i, float d, float limit);
 private:
 	float kp, ki, kd;

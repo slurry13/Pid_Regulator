@@ -1,5 +1,4 @@
 #include "BasicLibraries.h"
-#include "ComplimentaryFilter.h"
 #include "PIDRegulator.h"
 
 PID_REGULATOR::PID_REGULATOR(float p = 0.9f, float i = 0.9f, float d = 0.9f, float limit = 255.0f)
